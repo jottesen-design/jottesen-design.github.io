@@ -142,10 +142,30 @@
 
 
         p {
+        
+            font-size: 20px;
+            font-weight: 300;
+            color: #B7B7B7;
+            font-family: 'IBM Plex Sans', sans-serif;
+          
+
+        }
+        
+        
+         .bold {
+            font-weight: 700;
+            font-size: 18px;
+            color: white;
+            font-family: 'IBM Plex Sans', sans-serif;
+
+        }
+
+        
+         
+        p li {
             font-size: 18px;
             color: #B7B7B7;
             font-family: 'IBM Plex Sans', sans-serif;
-
         }
 
 
@@ -165,7 +185,18 @@
             text-align: center!important;
         }
 
+        
+        .references {
+            padding-left: 20px;
+            border-left: white 1px solid; 
+        }
 
+        
+        .referencesname {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 16px;
+            color: #B7B7B7;
+        }
 
 
 
@@ -196,7 +227,7 @@
             background-color: white;
             border: white solid 2px;
             color: black;
-            cursor: none;
+            cursor: pointer;
             -webkit-box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.6);
             -moz-box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.6);
             box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.6);
@@ -211,10 +242,11 @@
             position: relative;
             top: 0;
             transition: top ease 0.4s;
-            background-color: transparent;
+             border-radius: 2px;
+            background-color: white;
             border: white solid 2px;
-            border-radius: 2px;
-            color: white;
+            color: black;
+            
             padding: 12px 25px;
             text-align: center;
             text-decoration: none;
@@ -228,9 +260,12 @@
         }
 
         .btn_secondary:hover {
-            background-color: white;
-            border: white solid 2px;
-            color: black;
+            
+            
+           background-color: #5800FF;
+            border: #5800FF solid 2px;
+            border-radius: 2px;
+            color: white;
             cursor: pointer;
             -webkit-box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.6);
             -moz-box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.6);
@@ -353,6 +388,7 @@
             font-family: 'IBM Plex Mono', monospace;
             transition: 0.4s;
             border-bottom: #5800FF 3px solid;
+            color: white;
         }
         
          .cta-links:hover {
@@ -538,7 +574,7 @@
             color: #4d4d4d;
         }
 
-
+       
 
         .figcap {
             padding-top: 10px;
@@ -755,17 +791,7 @@
 
 
     <span class="col-md-12"> 
-        <div class="navigation">
-        <div class="container">
-            <ul>
-                <li><a href="Jacob-Ottesen_Resume-2021.pdf" target="_blank">Resume</a></li>
-                <li><a href="aboutme.html">About</a></li>
-                <li><a href="#projects" class="active">Work</a></li>
-
-            </ul>
-        </div>
-
-    </div>
+       
     
         
         <div class="lgspacer"></div>
@@ -776,15 +802,21 @@
 
         <div class="row">
 
-            <span class="col-md-8"> 
+            <span class="col-md-10"> 
                 
                     
                 <div class="smspacer"></div>
                 <h6><span class="ec ec-wave"></span> </h6>
                 <div class="smspacer"></div>
                 
-                <h1>Hey! I'm Jacob, a product designer and mustache grower. Currently designing @<a href="https://www.procore.com/" class="cta-links" target="_blank">Procore</a>. Previously designed @<a href="https://www.ibm.com/design/" class="cta-links" target="_blank">IBM</a> and instructed @<a href="https://vschool.io/" class="cta-links" target="_blank">V-School</a>.
+                <h1>Hey! I'm Jacob, a product designer and mustache grower. Currently designing @<a href="https://www.procore.com/" class="cta-links" target="_blank">Procore</a> in Austin, TX. 
                 </h1>
+                <div class="smspacer"></div>
+                 <p>Most recently, I’ve been working at Procore, crafting a new product vision, building a 0→1 product, and integrating the largest subcontractor network into Procore’s platform. Prior to that, I worked at @<a href="https://www.ibm.com/design/" class="cta-links" target="_blank">IBM</a> designing features for IBM Cloud, building design system components for IBM.com, and mentoring aspiring designers @<a href="https://vschool.io/" class="cta-links" target="_blank">V-School</a>.
+                <br>
+                <br>
+                For more work experience details, check out my <a href="Jacob-Ottesen_Resume-2021.pdf" class="cta-links" target="_blank">resume</a>.
+                </p>
                 
 
 
@@ -793,7 +825,7 @@
 
     <div class="xsspacer"></div>
 
-    <a href="mailto:ottesenjacob1994@gmail.com" target="_top"><button class="btn_primary">Drop me a line <i class="fas fa-envelope"></i></button></a> 
+    <a href="#projectsection"><button class="btn_primary">Check out my work  <i class="fas fa-arrow-down"></i></button></a> 
 
 
 
@@ -804,7 +836,6 @@
     </div>
     <div class="smspacer"></div>
        <div class="lgspacer"></div>
-    <a href="#projectsection"><span class="floaticon top"><i class="fas fa-chevron-down"></i></span></a>
 
 
     </div>
@@ -815,6 +846,52 @@
 
 
     <div class="container" id="projectsection">
+        
+        
+        
+        
+         <div class="row" id="projects">
+
+
+            <span class="col-md-12"> 
+        
+                <a href ="procore+compass.html"><img src="images/homepage/prequal.png" class="img-fluid rounded"></a>
+
+                </span>
+
+        </div>
+
+        <div class="smspacer"></div>
+
+        <div class="row">
+
+            <span class="col-md-5"> 
+         <h2>Procore Partnership</h2>
+                <div class="xxxsspacer"></div>
+                  
+        
+        <div class="pill"><i class="fas fa-tag"></i> Product design</div>
+        <div class="pill"> <i class="fas fa-tag"></i> Product vision</div>
+        
+         
+            </span>
+
+            <span class="col-md-7"> 
+        
+                <h3>Integrating subcontractor prequalification data into Procore’s Bidding tool.</h3>
+        
+              
+            </span>
+
+
+        </div>
+        <div class="xxsspacer"></div>
+
+        <hr class="line" >
+
+
+        <div class="lgspacer"></div>
+        <div class="lgspacer"></div>
 
 
         <div class="row" id="projects">
@@ -897,11 +974,123 @@
 
         </div>
         <div class="xxsspacer"></div>
+        
+         <hr class="line" id="projects">
 
-        <hr class="line" id="projects">
-
-
+             <div class="lgspacer"></div>
         <div class="lgspacer"></div>
+        
+           <div class="row">
+
+
+            <span class="col-md-12"> 
+                
+                <h1>About Me
+                </h1>
+        
+                 <div class="smspacer"></div>
+                <img src="images/aboutme/hero2.png" class="img-fluid rounded">
+                
+
+                </span>
+               <span class="col-md-11">
+                   
+                   <div class="smspacer"></div>
+               
+                <p>
+                    Creating has always been my passion, whether it was painting vibrant scenes or making skate videos with friends. In college, I explored multiple majors, searching for the perfect fit. A pivotal conversation with a family friend introduced me to UX design. The blend of <strong class="bold">psychology and creativity</strong> was exactly what I had been seeking. I switched my major to <strong class="bold">Web Design and Development</strong>, and haven't looked back since.
+                    
+                    <br>
+                    <br>
+                Now, I combine my love for human-centered design with a dedication to crafting intuitive, engaging user experiences. Explore my portfolio to see how my journey and passion translate into my work. Let's connect and create something amazing together!
+                    
+                    <br>
+                    <br>
+                    During my time as a designer, I’ve had experience in the following: 
+                
+                </p>
+                   
+                   
+                   <p>
+                       – Running <strong class="bold">customer discovery</strong>
+                       <br>
+                        – Crafting research deck
+                       <br>
+                       – Running customer <strong class="bold">research workshops</strong>
+                       <br>
+                        – Crafting <strong class="bold">product visions</strong>
+                       <br>
+                        – Presenting product vision/roadmap to customer executives
+                       <br>
+                        – Collaborating on product requirements 
+                       <br>
+                       – <strong class="bold">Designing products for enterprise</strong> customers
+                       <br>
+                        – Utilizing and contributing to design systems
+                       <br>
+                        – Conducting <strong class="bold">competitive audit/analysis</strong> 
+                       <br>
+                        – <strong class="bold">Mentoring</strong> mid-level and junior designers
+                   </p> 
+                   
+                  
+                   
+                   <div class="smspacer"></div>
+                   <a href="mailto:ottesenjacob1994@gmail.com" target="_top"><button class="btn_secondary">Drop me a line <i class="fas fa-envelope"></i></button></a> 
+                   
+                   <div class="lgspacer"></div>
+                   
+                   <h2>Approach</h2>
+                   
+                   <div class="smspacer"></div>
+                   <p><strong class="bold">Peel the layers.</strong> 
+                       Asking why consistently gives me closer to knowing the true problem whether with customers or stakeholders.
+
+                       <br><br>
+                       <strong class="bold">Know the landscape.</strong> Becoming an expert in the industry, product, and market competitors is key me bringing success to a product team.
+
+                       <br><br>
+                       <strong class="bold"> Welcome critique.</strong> I’m always looking for fresh eyes on my work so that I can continue refining. 
+                    Sell the roadmap and vision. As a storyteller I love to selling the product vision to current or potential customers. Plus roadmap decks always need a little design live.
+
+                      
+               
+                   
+                   <div class="lgspacer"></div>
+                   
+                   <h2>References</h2>
+                   <div class="smspacer"></div>
+                   <p class="references"> 
+                       “Jacob consistently impressed me with his innovative approach to product design. His ability to <strong class="bold">blend creativity with practicality</strong> resulted in solutions that not only looked great but also functioned flawlessly. He's a true asset to any team.”
+                   </p>
+                   <p class="referencesname">– Product Manager</p>
+                   
+                    <div class="smspacer"></div>
+
+                   <p class="references">
+            
+                     “As a design director, I had the pleasure of working closely with Jacob on several projects. His <strong class="bold">attention to detail and commitment to user-centric design</strong> were evident in every interaction. Jacob's designs not only met the brief but often exceeded expectations, setting a high standard for our team.”
+
+                   </p>
+                   <p class="referencesname">– Design Manager </p>
+                   
+                    <div class="smspacer"></div>
+                       
+                       <p class="references">
+                           “Having worked closely with Jacob on a product launch, I can confidently say that he is a highly skilled product designer. His ability to balance user needs with technical constraints resulted in a product that was both <strong class="bold">visually stunning and highly functional</strong>. I would highly recommend Jacob for any design role. His ability to balance user needs with technical constraints resulted in a product that was both visually stunning and highly functional. I would highly recommend Jacob for any design role.”
+
+                   </p>
+                   <p class="referencesname">– Director of Product</p>
+                     
+                   
+               </span>
+               
+
+        </div>
+
+        <div class="smspacer"></div>
+        
+    
         <div class="lgspacer"></div>
         <div class="lgspacer"></div>
 
@@ -956,7 +1145,7 @@
 
 
         </div>
-        <p class="figcap">&#169; 2021. Design and develop by Jacob Ottesen</p>
+        <p class="figcap">&#169; 2024. Design and develop by Jacob Ottesen</p>
 
     </div>
     <div class="smspacer"></div>
